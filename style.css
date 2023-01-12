@@ -268,6 +268,26 @@ h3 {
   color: #f44336;
 }
 
+/* Call To Action */
+
+.call-to-action {
+  margin: 6.25rem auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("/images/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.625rem;
+  text-align: center;
+  padding: 6.25rem 0;
+}
+
+.call-to-action h1 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+
 /* Media Queries */
 @media screen and (max-width: 700px) {
   html,
@@ -318,5 +338,9 @@ h3 {
   .testimonial-col img {
     margin-left: 0;
     margin-right: 0.9375rem;
+  }
+
+  .call-to-action h1 {
+    font-size: 1.5rem;
   }
 }
