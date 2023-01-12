@@ -146,6 +146,58 @@ h3 {
   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Campus */
+.campus {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 3.125rem;
+}
+
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 0.625rem;
+  margin-bottom: 1.875rem;
+  position: relative;
+}
+
+.campus-col img {
+  width: 100%;
+  display: block;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(226, 0, 0, 0.5);
+}
+
+.layer h3 {
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.625rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  transition: 0.5s;
+}
+
+.layer:hover h3 {
+  opacity: 1;
+  bottom: 49%;
+}
+
+/* Media Queries */
 @media screen and (max-width: 700px) {
   html,
   body {
