@@ -217,14 +217,55 @@ h3 {
   border-radius: 0.625rem;
 }
 
-.facilities-col p{
+.facilities-col p {
   padding: 0;
 }
 
-.facilities-col h3{
+.facilities-col h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: left;
+}
+
+/* Testimonials */
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 6.25rem;
+  text-align: center;
+}
+
+.testimonial-col {
+  display: flex;
+  flex-basis: 44%;
+  border-radius: 0.625rem;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 1.5625rem;
+  cursor: pointer;
+}
+
+.testimonial-col img {
+  height: 2.5rem;
+  margin-left: 0.3125rem;
+  margin-right: 1.875rem;
+  border-radius: 50%;
+}
+
+.testimonial-col p {
+  padding: 0;
+}
+
+.testimonial-col h3 {
+  margin: 0;
+  margin-top: 0.9375rem;
+  text-align: left;
+}
+
+.testimonial-col .uil,
+.testimonial-col .uis {
+  color: #f44336;
 }
 
 /* Media Queries */
@@ -269,7 +310,13 @@ h3 {
     font-size: 1.375rem;
     cursor: pointer;
   }
+
   .row {
     flex-direction: column;
+  }
+
+  .testimonial-col img {
+    margin-left: 0;
+    margin-right: 0.9375rem;
   }
 }
